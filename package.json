@@ -1,0 +1,36 @@
+{
+  "name": "soundcloud-saver",
+  "version": "1.0.0",
+  "description": "Save your liekd soundcloud tracks, before it's too late!",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "compile": "babel --out-dir lib src/"
+  },
+  "bin": {
+    "soundcloud-saver": "lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PepijnSenders/soundcloud-saver.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PepijnSenders/soundcloud-saver/issues"
+  },
+  "homepage": "https://github.com/PepijnSenders/soundcloud-saver#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-node8": "^1.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "batch-promises": "0.0.3",
+    "inquirer": "^3.2.0",
+    "lodash": "^4.17.4",
+    "node-id3": "0.0.9",
+    "tmp": "0.0.31",
+    "urijs": "^1.18.10"
+  }
+}
